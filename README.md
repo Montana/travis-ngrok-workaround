@@ -1,6 +1,6 @@
-# travis-ngrok-workaround
+# Using ngrok to live debug your Travis builds
 
-Debug your Travis CI builds using ngrok, this method will for now let you live-debug your builds as `tmate` will no longer be maintaining their project. Add the following to your `.travis.yml`: 
+Last night I did some digging and found out `tmate` will be deprecated. So let's now debug your Travis CI builds using ngrok, this method will for now let you live-debug your builds as I said `tmate` will no longer be maintaining their project. Add the following to your `.travis.yml`: 
 
 ```yaml
 env:
